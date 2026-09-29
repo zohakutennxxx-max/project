@@ -1,0 +1,345 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: arial sans-serif;
+    
+    
+}
+
+.navbar-container {
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+
+}
+
+.logo-fore {
+    height: 50px;
+    
+}
+
+.logo1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    display: flex;
+    margin-right: 580px;
+}
+
+
+.nav-menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+    color: green;
+    align-items: center ;
+   
+    
+
+}
+
+
+.nav-menu a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.box-header {
+    background-color: white;
+    color: green;       
+    padding: 5px;
+    padding-bottom: 5;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 25px;
+    border: 2px solid;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+
+.tampilan {
+    background-color: green;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+.tengah {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    margin-top: 15px;
+   
+   
+}
+
+
+.visit {
+    color: green;    
+    padding: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: 2px solid;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    
+    
+}
+
+
+
+.gambar {
+    background-image: url(Aset/fore-coffee.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 550px;
+    
+    
+   
+}
+
+
+h1 {
+    position: absolute;
+    top: 50px;            
+    left: 550px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+   
+
+}
+
+.p{
+    position: absolute;
+    top: 120px;            
+    left: 380px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+
+.box1 { 
+    grid-template-columns: 1fr, 2fr;
+    position: absolute;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    flex: 3;
+    text-align: left;
+    height: 280px;
+    margin-right: 550px;
+    margin-left: 200px;
+    left: 30px;
+    right: 100px;
+    top: 310px;
+    padding-left: 20px;
+    padding-right: 30px;
+     
+    
+}
+
+.judul1 {
+    color: green;
+    font-weight: bold;
+    
+}
+
+.p1 {
+    color: green;
+    margin-top: 10px;
+    
+    
+}
+
+ol p{
+    display: flex;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+ol li{
+    list-style-type: disc;
+    color: green;
+    font-weight: bold;
+    margin-left: 25px;
+   
+    
+
+}
+
+.box2{
+    position: absolute;
+    background-color: green;
+    border-radius: 10px;
+    width: 550px;
+    padding: 20px 15px;
+    flex: 3;
+    text-align: left;
+    margin-top: 70px;
+    right: 60px;
+    top: 300px;
+    
+   
+    
+
+}
+
+
+.judul2 {
+    color: white;
+    font-weight: bold;
+}
+
+
+.p2{
+    color: white;
+}
+
+.box3 {
+   color: green;
+   font-weight: bold;
+   background-color: white;
+   border-radius: 40px;
+   margin-right: 400px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 25px;
+}
+
+
+
+.logo-wa{
+   position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;          
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 14px;
+    
+
+}
+
+.logo2{
+    margin: 0;
+    margin-top: 50px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.footer2 h3 {
+    color: black;
+
+}
+
+.footer2 p{
+    color: none;
+    
+}
+
+.footer3 h3{
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.Kaki {
+    display: flex;
+    flex: 3;
+    gap: 50px;
+    font-family: Arial, sans-serif;
+    height: 160px;
+    margin: 20px 120px;
+}
+
+.Kiri {
+    display: flex;
+    background-color: white;
+    flex: 1;
+    align-items: Center;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+    row-gap: 0;
+    column-gap: 10px;
+}
+
+.Kiri img {
+    width: 35px;
+    height: 35px;
+}
+
+.Kiri h3 {
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    color: rgb(4, 69, 60);
+    margin: 0;
+
+}
+
+.Kata  {
+    width: 90%;
+    margin-bottom: 120px;
+    column-gap: 2px;
+}
+
+.Tengah {
+    background-color: white;
+    flex: 1;
+}
+
+.Kanan {
+    background-color: white;
+    flex: 1;
+}
+

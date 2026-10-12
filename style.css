@@ -111,7 +111,7 @@ body {
 
 
 .gambar {
-    background-image: url(Aset/fore-coffee.jpg);
+    background-image: url(fore-coffee.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
